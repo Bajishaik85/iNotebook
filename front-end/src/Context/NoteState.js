@@ -3,35 +3,9 @@ import noteContext from "./NoteContext";
 
 
 const NoteState = (props) => {
-    const host = "http://localhost:5000"
+    const host = "https://baji-inotebook.netlify.app/"
     const notesInitial = [
-        // {
-        //     "_id": "6371f9b0cfc9d9a74ce834517",
-        //     "user": "637b4f9d16ab1ed1eafcdfca",
-        //     "title": "My Title",
-        //     "description": "Wake up early",
-        //     "tag": "Personal",
-        //     "data": "2022-11-24T16:25:48.943Z",
-        //     "__v": 0
-        // },
-        // {
-        //     "_id": "6137f9b0cfc9d9a74ce834517",
-        //     "user": "637b4f9d16ab1ed1eafcdfca",
-        //     "title": "My Title",
-        //     "description": "Wake up early",
-        //     "tag": "Personal",
-        //     "data": "2022-11-24T16:25:48.943Z",
-        //     "__v": 0
-        // },
-        // {
-        //     "_id": "6317f9b0cfc9d9a74ce834517",
-        //     "user": "637b4f9d16ab1ed1eafcdfca",
-        //     "title": "My Title",
-        //     "description": "Wake up early",
-        //     "tag": "Personal",
-        //     "data": "2022-11-24T16:25:48.943Z",
-        //     "__v": 0
-        // }
+       
     ]
     const [notes, setnotes] = useState(notesInitial)
 
